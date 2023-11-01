@@ -3,7 +3,7 @@
 @import "../../components/main/section/section.css";
 @import "../../components/footer/footer.css";
 @import "../../components/body/body.css";
-@import "../../components/main/main.css";
+@import "../../components/main/components_main.css";
 
 :root {
     --white: #ffffff;
