@@ -1,6 +1,5 @@
 .section {
-    width: 1440px;
-    height: 1036px;
     flex-shrink: 0;
     background: #F9FAFC;
+    padding: 518px;
 }
