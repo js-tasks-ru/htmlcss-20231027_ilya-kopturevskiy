@@ -1,0 +1,14 @@
+.header {
+    background: #FFF;
+    flex-shrink: 0;
+    padding: 118px 0;
+}
+.header__title {
+    color: #212429;
+    font-family: Inter, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    padding-left: 160px;
+}
