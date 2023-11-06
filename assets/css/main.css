@@ -24,7 +24,6 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
-    --none: var(--none);
     --transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
 }
 

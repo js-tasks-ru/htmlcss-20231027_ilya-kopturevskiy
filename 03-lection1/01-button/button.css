@@ -1,9 +1,4 @@
-@import "../../assets/css/main.css";
-
 .button {
-    width: 189px;
-    height: 48px;
-    flex-shrink: 0;
     border-radius: 8px;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -16,59 +11,54 @@
 
 
 /*Primary*/
-.button__primary {
+.button_primary {
     background: var(--primary);
     color: var(--white);
-    border: var(--none);
+    border: 1px solid var(--primary);
 }
-.button__primary-hover:hover {
+.button_primary:hover {
     background-color: var(--primary-hover);
 }
 
 
 /*Secondary*/
-.button__secondary {
+.button_secondary {
     background: var(--secondary);
     color: var(--white);
-    border: var(--none);
+    border: 1px solid var(--secondary);
 }
-.button__secondary-hover:hover {
+.button_secondary:hover {
     background-color: var(--secondary-hover);
 }
 
 
 /*Alternate*/
-.button__alternate {
+.button_alternate {
     color: var(--grey-4);
     border: 2px solid var(--grey-3);
     box-shadow: none;
 }
-.button__alternate-hover:hover {
+.button_alternate:hover {
     border-color: var(--black);
 }
 
 
 /*Disabled*/
-.button__disabled-05:disabled {
+.button_disabled-05:disabled {
     pointer-events: none;
     opacity: 0.5;
 }
-.button__disabled-03:disabled {
+.button_disabled-03:disabled {
     pointer-events: none;
     opacity: 0.3;
 }
 
 
 /*Active*/
-.button__active-05:active {
+.button_active-05:active {
     opacity: 0.5;
 }
-.button__active-03:active {
+.button_active-03:active {
     opacity: 0.3;
 }
 
-
-/*Cursor*/
-.button__cursor {
-    cursor: pointer;
-}
