@@ -14,15 +14,20 @@
     margin-bottom: 8px;
 }
 
+.accordion__item[open] {
+    padding-bottom: 32px;
+}
+
 .accordion__summary {
     cursor: pointer;
     list-style: none;
 }
 
-.accordion:last-child {
+.accordion__item:last-child {
     margin-bottom: 0;
 }
 
 .accordion__content {
     color: var(--grey-4, #495057);
+    padding-bottom: 32px;
 }
