@@ -1,4 +1,5 @@
 .button {
+    padding: 15px 50px;
     border-radius: 8px;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -35,7 +36,7 @@
 /*Alternate*/
 .button_alternate {
     color: var(--grey-4);
-    border: 2px solid var(--grey-3);
+    border: 1px solid var(--grey-3);
     box-shadow: none;
 }
 .button_alternate:hover {
@@ -44,21 +45,9 @@
 
 
 /*Disabled*/
-.button_disabled-05:disabled {
+.button:disabled {
     pointer-events: none;
     opacity: 0.5;
 }
-.button_disabled-03:disabled {
-    pointer-events: none;
-    opacity: 0.3;
-}
 
-
-/*Active*/
-.button_active-05:active {
-    opacity: 0.5;
-}
-.button_active-03:active {
-    opacity: 0.3;
-}
 
