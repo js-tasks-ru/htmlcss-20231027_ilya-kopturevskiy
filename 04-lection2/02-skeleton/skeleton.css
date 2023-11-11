@@ -1,0 +1,42 @@
+.skeleton {
+    padding: 12px;
+}
+
+.skeleton__top {
+    padding: 12px;
+    display: flex;
+}
+
+.skeleton__bottom {
+    padding: 12px;
+}
+
+.skeleton__avatar {
+    width: 64px;
+    height: 64px;
+    background: var(--gradient);
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.skeleton__row {
+    height: 20px;
+    background: var(--gradient);
+    margin: 8px;
+}
+
+.skeleton__rows {
+    flex: 1;
+}
+
+.skeleton__row_first-line {
+    width: 40%;
+}
+
+.skeleton__row_second-line {
+    width: 60%;
+}
+
+.skeleton__row_third-and-fourth-lines {
+    width: 100%;
+}
