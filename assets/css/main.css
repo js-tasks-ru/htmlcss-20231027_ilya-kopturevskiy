@@ -2,6 +2,7 @@
 @import "../../components/header/header.css";
 @import "../../components/main/section/section.css";
 @import "../../components/footer/footer.css";
+@import "../../03-lection1/01-button/button.css";
 @import "../../03-lection1/02-accordion/accordion.css";
 
 :root {
@@ -15,12 +16,15 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --primary-hover: #2342C0;
+    --secondary-hover: #5028C6;
 
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
+    --transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
 }
 
 * {
