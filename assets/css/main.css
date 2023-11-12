@@ -4,6 +4,7 @@
 @import "../../components/footer/footer.css";
 @import "../../03-lection1/01-button/button.css";
 @import "../../03-lection1/02-accordion/accordion.css";
+@import "../../05-lection3/01-tooltip/tooltip.css";
 
 :root {
     --white: #ffffff;
