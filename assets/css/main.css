@@ -1,8 +1,11 @@
 @import '../fonts/fonts.css';
 
+@import "../../components/page/page.css";
 @import "../../components/header/header.css";
-@import "../../components/main/section/section.css";
 @import "../../components/footer/footer.css";
+@import "../../components/preview/preview.css";
+@import "../../components/container/container.css";
+@import "../../components/card/card.css";
 
 @import "../../03-lection1/01-button/button.css";
 @import "../../03-lection1/02-accordion/accordion.css";
@@ -32,6 +35,10 @@
     --primary: var(--blue);
     --secondary: var(--purple);
     --transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+}
+
+html, body {
+    height: 100%;
 }
 
 * {
