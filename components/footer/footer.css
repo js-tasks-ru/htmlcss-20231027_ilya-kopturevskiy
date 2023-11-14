@@ -1,4 +1,12 @@
 .footer {
+    color: var(--grey-3, #ACB5BD);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
