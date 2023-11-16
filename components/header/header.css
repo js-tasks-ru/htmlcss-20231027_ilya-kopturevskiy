@@ -1,11 +1,36 @@
 .header {
     background: var(--white);
-    padding: 96px 0 77px;
+    padding: 96px 71px 69px 16px;
 }
 .header__title {
-    font-size: 50px;
+    color: var(--grey-4, #495057);
+    font-size: 1.75rem;
     font-style: normal;
-    font-weight: 500;
-    line-height: 64px;
-    margin: 0;
+    font-weight: 400;
+    line-height: 2.375rem;
 }
+
+@media screen and (min-width: 768px) {
+    .header__title {
+        font-size: 2.09rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header__title {
+        font-size: 2.43rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header__title {
+        font-size: 2.78rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .header__title {
+        font-size: 3.16rem;
+    }
+}
+
