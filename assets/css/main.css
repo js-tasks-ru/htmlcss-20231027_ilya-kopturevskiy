@@ -6,6 +6,8 @@
 @import "../../components/preview/preview.css";
 @import "../../components/container/container.css";
 @import "../../components/card/card.css";
+@import "../../components/aside/aside.css";
+@import "../../components/info/info.css";
 
 @import "../../03-lection1/02-accordion/accordion.css";
 @import "../../03-lection1/01-button/button.css";
@@ -24,6 +26,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --tranparent: rgba(0, 0, 0, 0);
     --primary-hover: #2342C0;
     --secondary-hover: #5028C6;
 

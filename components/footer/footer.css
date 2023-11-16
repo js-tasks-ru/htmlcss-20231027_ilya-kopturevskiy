@@ -9,4 +9,8 @@
     text-align: center;
 }
 
+.footer_transparent-background {
+    background: var(--tranparent);
+}
+
 
