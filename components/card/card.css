@@ -1,6 +1,6 @@
 .card {
-    min-width: 164px;
-    min-height: 210px;
+    width: 164px;
+    height: 210px;
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(33, 36, 41, 0.05);
     background: grey; /* Не забыть удалить перед пулом! */
@@ -8,31 +8,31 @@
 
 @media screen and (min-width: 768px) {
     .card {
-        min-width: 211px;
-        min-height: 249px;
+        width: 211px;
+        height: 249px;
         border-radius: 10px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .card {
-        min-width: 257px;
-        min-height: 289px;
+        width: 257px;
+        height: 289px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .card {
-        min-width: 304px;
-        min-height: 328px;
+        width: 304px;
+        height: 328px;
         border-radius: 12px;
     }
 }
 
 @media screen and (min-width: 1400px) {
     .card {
-        min-width: 350px;
-        min-height: 367px;
+        width: 350px;
+        height: 367px;
     }
 }
 

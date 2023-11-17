@@ -10,6 +10,10 @@
     line-height: 2.375rem;
 }
 
+.header_transparent-background {
+    background: var(--tranparent);
+}
+
 @media screen and (min-width: 768px) {
     .header__title {
         font-size: 2.09rem;
@@ -32,10 +36,4 @@
     .header__title {
         font-size: 3.16rem;
     }
-}
-
-
-
-.header_transparent-background {
-    background: var(--tranparent);
 }
