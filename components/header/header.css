@@ -34,3 +34,8 @@
     }
 }
 
+
+
+.header_transparent-background {
+    background: var(--tranparent);
+}
