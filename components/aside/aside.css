@@ -31,3 +31,9 @@
 .aside__link_changed {
     color: #D84910;
 }
+
+@media screen and (max-width: 768px) {
+    .aside {
+        display: none;
+    }
+}

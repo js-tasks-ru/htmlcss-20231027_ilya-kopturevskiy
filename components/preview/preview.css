@@ -14,3 +14,9 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .preview {
+        padding: 0;
+    }
+}
