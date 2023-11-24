@@ -1,15 +1,10 @@
 .background {
+    background-image: url("./public/forest_400.jpg");
     min-width: 400px;
     min-height: 225px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-@media screen and (max-width: 400px) {
-    .background {
-        background-image: url("./public/forest_400.jpg");
-    }
 }
 
 @media screen and (min-width: 400px) {
@@ -25,12 +20,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .background {
-        background-image: url("./public/forest_2560.jpg");
-    }
-}
-
-@media screen and (min-width: 2560px) {
     .background {
         background-image: url("./public/forest_2560.jpg");
     }
