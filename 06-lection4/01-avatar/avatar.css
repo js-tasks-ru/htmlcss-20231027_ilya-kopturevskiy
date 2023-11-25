@@ -1,11 +1,11 @@
 .avatar {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .avatar__image {
     height: 100%;
     width: 100%;
+    border-radius: 50%;
     object-fit: cover;
 }
