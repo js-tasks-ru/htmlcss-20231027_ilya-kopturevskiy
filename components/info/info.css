@@ -8,6 +8,11 @@
     border-radius: 8px;
 }
 
+.info__img {
+    max-width: 343px;
+    max-height: 180px;
+}
+
 @media screen and (max-width: 768px) {
     .info {
         padding: 16px 0;
