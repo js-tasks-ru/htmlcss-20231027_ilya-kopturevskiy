@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<!-- Страница радио -->
 <html lang="ru">
     <head>
+        <title>Radio</title>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
-
+    <label for="radio" class="radio">
+        <input type="radio" id="radio" class="radio__input">
+        <div class="radio__state">
+            <div class="radio__control">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" class="radio__svg">
+                    <use href="../../assets/images/icons.svg#radio"></use>
+                </svg>
+            </div>
+            <span class="radio__title">Default</span>
+        </div>
+    </label>
     </body>
 </html>
