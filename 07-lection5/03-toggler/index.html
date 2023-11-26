@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<!-- Страница с кнопкой переключения -->
 <html lang="ru">
     <head>
+        <title>Toggle</title>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
-
+        <label for="toggle" class="toggle">
+            <input type="checkbox" id="toggle" class="toggle__input">
+            <div class="toggle__state">
+                <div class="toggle__control">
+                    <svg width="52" height="28" viewBox="0 0 52 28" fill="none" class="toggle__off">
+                        <use href="../../assets/images/icons.svg#toggle_off"></use>
+                    </svg>
+                    <svg width="52" height="28" viewBox="0 0 52 28" fill="none" class="toggle__on">
+                        <use href="../../assets/images/icons.svg#toggle_on"></use>
+                    </svg>
+                    <svg width="52" height="28" viewBox="0 0 52 28" fill="none" class="toggle__disabled">
+                        <use href="../../assets/images/icons.svg#toggle_disabled"></use>
+                    </svg>
+                </div>
+                <span class="toggle__title">Off</span>
+            </div>
+        </label>
     </body>
 </html>
