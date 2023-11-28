@@ -14,11 +14,18 @@
     margin-bottom: 8px;
 }
 
+.accordion__item[open] .accordion__vector {
+    transform: rotateX(180deg);
+}
+
 .accordion__item[open] {
     padding-bottom: 32px;
 }
 
 .accordion__summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     cursor: pointer;
     list-style: none;
 }
