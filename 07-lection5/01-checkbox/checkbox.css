@@ -1,5 +1,5 @@
 .checkbox {
-    position: relative;
+    display: inline-block;
 }
 
 .checkbox__input {
