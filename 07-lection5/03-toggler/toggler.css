@@ -1,5 +1,5 @@
 .toggle {
-    position: relative;
+    display: inline-block;
 }
 
 .toggle__input {
@@ -17,18 +17,19 @@
 .toggle__control {
     width: 52px;
     height: 28px;
+    border: 1px solid var(--grey-2);
+    border-radius: 26px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
 }
 
-.toggle__off {
-
-}
-
-.toggle__on {
-    display: none;
-}
-
-.toggle__disabled {
-    display: none;
+.toggle__point {
+    width: 24px;
+    height: 24px;
+    background-color: var(--grey-2);
+    border-radius: 50%;
 }
 
 .toggle__title {
@@ -39,19 +40,22 @@
     line-height: 24px;
 }
 
-.toggle__input:checked ~ .toggle__state .toggle__off,
-.toggle__input:disabled ~ .toggle__state .toggle__off {
-    display: none;
+.toggle__input:checked ~ .toggle__state .toggle__control {
+    border-color: var(--blue);
+    background-color: var(--blue);
 }
 
-.toggle__input:checked ~ .toggle__state .toggle__on {
-    display: block;
+.toggle__input:checked ~ .toggle__state .toggle__point {
+    background-color: var(--white);
+    position: relative;
+    left: 24px;
 }
 
-.toggle__input:focus ~ .toggle__state .toggle__title {
-    text-decoration: underline;
+.toggle__input:disabled ~ .toggle__state .toggle__control {
+    background-color: var(--grey-2);
 }
 
-.toggle__input:disabled ~ .toggle__state .toggle__disabled {
-    display: block;
+.toggle__input:disabled ~ .toggle__state .toggle__point {
+    background-color: var(--grey-3);
 }
+

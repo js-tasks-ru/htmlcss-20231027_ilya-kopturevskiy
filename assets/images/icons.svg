@@ -30,25 +30,4 @@
             </defs>
         </symbol>
     </defs>
-
-    <defs>
-        <symbol id="toggle_off">
-            <rect x="0.5" y="0.5" width="51" height="27" rx="13.5" fill="white" stroke="#DDE2E5"/>
-            <rect x="2" y="2" width="24" height="24" rx="12" fill="#DDE2E5"/>
-        </symbol>
-    </defs>
-
-    <defs>
-        <symbol id="toggle_on">
-            <rect x="0.5" y="0.5" width="51" height="27" rx="13.5" fill="#4263EB" stroke="#4263EB"/>
-            <rect x="26" y="2" width="24" height="24" rx="12" fill="white"/>
-        </symbol>
-    </defs>
-
-    <defs>
-        <symbol id="toggle_disabled">
-            <rect x="0.5" y="0.5" width="51" height="27" rx="13.5" fill="#DDE2E5" stroke="#DDE2E5"/>
-            <rect x="2" y="2" width="24" height="24" rx="12" fill="#ACB5BD"/>
-        </symbol>
-    </defs>
 </svg>
