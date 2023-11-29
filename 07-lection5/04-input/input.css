@@ -1,5 +1,5 @@
 .form {
-    display: flex;
+
 }
 
 .form__title {
@@ -10,10 +10,6 @@
     line-height: 18px;
     letter-spacing: 0.48px;
     text-transform: uppercase;
-}
-
-.form__label {
-
 }
 
 .form__wrapper {
