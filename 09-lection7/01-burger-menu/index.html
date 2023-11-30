@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<!-- Страница бургер-меню -->
 <html lang="ru">
     <head>
+        <title>Burger menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./burger-menu.css">
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-
+    <button id="burger-menu-open">Open</button>
+        <div class="burger-menu" id="burger-menu">
+            <div class="burger-menu__window">
+                <header class="burger__header">
+                    <div class="burger__container">
+                        <button id="burger-menu-close" class="burger-menu-close">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <use href="../../assets/images/icons.svg#x"></use>
+                            </svg>
+                        </button>
+                        <div class="burger__logo">
+                            <svg width="110" height="32">
+                                <use href="../../assets/images/icons.svg#rectangle"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </header>
+                <main class="preview preview_burger">
+                    <div class="container page__main">
+                        <aside>
+                            <h3 class="container__title">Components</h3>
+                            <div class="aside__navigation">
+                                <a href="" class="aside__link">Modal</a>
+                                <a href="" class="aside__link">Tooltip</a>
+                                <a href="" class="aside__link">Avatar</a>
+                                <a href="" class="aside__link">Calendar</a>
+                                <a href="" class="aside__link aside__link_changed">Histogram</a>
+                                <a href="" class="aside__link">Custom form elements</a>
+                                <a href="" class="aside__link">Main page</a>
+                            </div>
+                        </aside>
+                    </div>
+                </main>
+            </div>
+        </div>
     </body>
 </html>
