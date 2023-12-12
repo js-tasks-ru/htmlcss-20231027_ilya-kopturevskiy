@@ -1,9 +1,8 @@
+@import "../../assets/css/variables";
+
 .histogram {
     padding: 16px 24px 24px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    @include text(var(--black), 16px, normal, 400, 24px);
     &__top {
         display: flex;
         justify-content: space-between;
@@ -13,8 +12,7 @@
         opacity: 0.8;
     }
     &__orders {
-        font-size: 20px;
-        line-height: 26px;
+        @include text(null, 20px, null, null, 26px);
     }
     &__view {}
     &__href {}

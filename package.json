@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Course Materials",
   "scripts": {
-    "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js"
+    "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
+    "sass": "sass assets/css/main.scss dist/styles.css"
   },
   "husky": {
     "hooks": {

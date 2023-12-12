@@ -1,4 +1,4 @@
-//@import '../fonts/fonts.css';
+@import '../fonts/fonts';
 
 //@import "../../components/page/page.css";
 //@import "../../components/header/header.css";
@@ -9,16 +9,19 @@
 //@import "../../components/aside/aside.css";
 //@import "../../components/info/info.css";
 
-//@import "../../03-lection1/01-button/button.css";
-//@import "../../03-lection1/02-accordion/accordion.css";
-//@import "../../05-lection3/01-tooltip/tooltip.css";
-//@import "../../04-lection2/02-skeleton/skeleton.css";
-@import "../../04-lection2/01-histogram/histogram";
-//@import "../../07-lection5/01-checkbox/checkbox.css";
-//@import "../../07-lection5/02-radio/radio.css";
-//@import "../../07-lection5/03-toggler/toggler.css";
-//@import "../../07-lection5/04-input/input.css";
-//@import "../../09-lection7/01-burger-menu/burger-menu.css ";
+@import "../../03-lection1/01-button/_button.scss";
+@import "../../03-lection1/02-accordion/_accordion.scss";
+@import "../../04-lection2/02-skeleton/_skeleton.scss";
+@import "../../04-lection2/01-histogram/_histogram.scss";
+@import "../../05-lection3/01-tooltip/_tooltip.scss";
+@import "../../05-lection3/02-modal/_modal.scss";
+@import "../../05-lection3/03-calendar/_calendar.scss";
+@import "../../06-lection4/01-avatar/_avatar.scss";
+@import "../../07-lection5/01-checkbox/_checkbox.scss";
+@import "../../07-lection5/02-radio/_radio.scss";
+@import "../../07-lection5/03-toggler/_toggler.scss";
+@import "../../07-lection5/04-input/_input.scss";
+@import "../../09-lection7/01-burger-menu/_burger-menu.scss";
 
 :root {
     --white: #ffffff;
@@ -49,5 +52,5 @@ html, body {
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
